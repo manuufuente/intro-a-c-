@@ -1,0 +1,7 @@
+C:\Users\EducaciónIT\Desktop\clase02\clase02\bin\Debug\clase02.exe.config
+C:\Users\EducaciónIT\Desktop\clase02\clase02\bin\Debug\clase02.exe
+C:\Users\EducaciónIT\Desktop\clase02\clase02\bin\Debug\clase02.pdb
+C:\Users\EducaciónIT\Desktop\clase02\clase02\obj\Debug\clase02.csprojResolveAssemblyReference.cache
+C:\Users\EducaciónIT\Desktop\clase02\clase02\obj\Debug\clase02.csproj.CoreCompileInputs.cache
+C:\Users\EducaciónIT\Desktop\clase02\clase02\obj\Debug\clase02.exe
+C:\Users\EducaciónIT\Desktop\clase02\clase02\obj\Debug\clase02.pdb
