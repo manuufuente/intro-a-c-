@@ -1,0 +1,142 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+
+        static void ejercicio1()
+        {
+            int cont = 0;
+            string respuesta = "", mensaje = "";
+            do
+            {
+                Console.Write("Ingrese un numero");
+                respuesta = Console.ReadLine();
+                cont++;
+           
+            switch (respuesta)
+            {
+                case "1":
+                    mensaje = "Gano una remera";
+                    break;
+
+                case "2":
+                    mensaje = "Ganaste una bandera";
+                    break;
+
+                case "3":
+                    mensaje = "No ganaste nada";
+                    break;       
+                               
+                default:
+                    mensaje = "Error. Reingrese numero";
+                    break;
+            }
+ } while (cont < 3 && respuesta != "1" && respuesta != "2" && respuesta != "3");
+            Console.WriteLine(mensaje);
+        }
+
+        static void ejercicio2()
+        {
+
+            for(int i = 1; i <= 20; i++)
+            {
+                
+                Console.WriteLine(i);
+                
+            }
+
+        }
+
+        static void ejercicio3()
+        {
+            int[] a = new int[5];
+            a[0] = 10;
+            a[1] = 20;
+            a[2] = 50;
+            a[3] = 145;
+            a[4] = 6;
+
+            for (int i = 0; i < 5;i++)
+            {
+                Console.WriteLine("el idice {0} tiene valor {1}",i,a[i]);
+            }
+        }
+
+        static void ejercicio4()
+        {
+            int acum = 0,contPar=0,contImpar = 0;
+            int[] a = new int[] { 10, 20, 50, 80, 45, 99, 556, 37, 34, 54, 7, 490,21 };
+            Console.WriteLine("el arreglo tiene {0} elementos: ", a.Length);
+            
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.WriteLine(a[i]);
+                if (a[i]%2==0) contPar++; 
+                else contImpar++; 
+                acum = acum + a[i];
+            }
+            Console.WriteLine("la suma de todos los numeros es : {0}", acum);
+            Console.WriteLine("el arreglo tiene {0} numeros pares y {1} numeros impares", contPar,contImpar);
+            
+        }
+        static void ejercicio5(int[] a)
+        {
+            int acum = 0, contPar = 0, contImpar = 0;
+            Console.WriteLine("el arreglo tiene {0} elementos: ", a.Length);
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] % 2 == 0) contPar++;
+                else contImpar++;
+                acum = acum + a[i];
+            }
+            Console.WriteLine("la suma de todos los numeros es : {0}", acum);
+            Console.WriteLine("el arreglo tiene {0} numeros pares y {1} numeros impares", contPar, contImpar);
+
+        }
+        static void ejercicio6()
+        {
+            string respuesta = "";
+            int tam = 0;
+            do {
+                Console.Write("indique el tamaño del arreglo: ");
+                respuesta = Console.ReadLine();
+
+            }while(!int.TryParse(respuesta, out tam));
+
+            // ejercicio5(tam);
+
+            int[] b = new int[tam];
+
+            for (int i = 0; i < tam; i++)
+            {
+                do
+                {
+                    Console.Write("Ingrese un numero: ");
+                    respuesta = Console.ReadLine();
+
+                } while (!int.TryParse(respuesta, out b[i]));
+
+            }
+
+            ejercicio5(b);
+        }
+        static void Main(string[] args)
+        {
+            //ejercicio1();
+            //ejercicio2();
+            //ejercicio3();
+           // ejercicio4();
+            //ejercicio5();
+            ejercicio6();
+
+            Console.ReadKey();
+        }
+    }
+}
