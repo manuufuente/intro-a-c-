@@ -1,0 +1,9 @@
+C:\Users\educacionit\Desktop\clase 5\clase 5\bin\Debug\clase 5.exe.config
+C:\Users\educacionit\Desktop\clase 5\clase 5\bin\Debug\clase 5.exe
+C:\Users\educacionit\Desktop\clase 5\clase 5\bin\Debug\clase 5.pdb
+C:\Users\educacionit\Desktop\clase 5\clase 5\obj\Debug\clase 5.csprojResolveAssemblyReference.cache
+C:\Users\educacionit\Desktop\clase 5\clase 5\obj\Debug\clase_5.Form1.resources
+C:\Users\educacionit\Desktop\clase 5\clase 5\obj\Debug\clase_5.Properties.Resources.resources
+C:\Users\educacionit\Desktop\clase 5\clase 5\obj\Debug\clase 5.csproj.GenerateResource.Cache
+C:\Users\educacionit\Desktop\clase 5\clase 5\obj\Debug\clase 5.exe
+C:\Users\educacionit\Desktop\clase 5\clase 5\obj\Debug\clase 5.pdb
